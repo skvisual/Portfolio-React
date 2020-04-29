@@ -1,0 +1,82 @@
+body {
+    background-color: lightskyblue}
+
+.navbar {
+    background-color: 
+}
+.header {
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.header2 {
+    padding: 20px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+}
+
+.mugshot {
+    position: relative;
+    margin: 0 auto;
+}
+
+.portheader {
+    text-align: center;
+    padding-top: 13px;
+}
+
+.card {
+    background-color:lightcyan;
+    margin: 0 auto;
+}
+
+.cb2 {
+    text-align: center;
+}
+.btn {
+    border: none;
+    background-color: lightslategray;
+}
+
+.footerlogo {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.email {
+    padding-top: 25px;
+}
+
+.twitter {
+    padding-top: 20px;
+}
+
+.github {
+    padding-top: 8px;
+}
+
+.octocat {
+    position: relative; 
+    bottom: 10px;
+}
+
+.linkedin {
+    padding-top: 25px;
+}
+
+.linkedlogo {
+    position: relative;
+    top: 5px;
+}
+.row {
+    padding-bottom: 20px;
+}
+
+.mr-3 {
+    padding-top: 20px;
+}

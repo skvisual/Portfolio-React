@@ -1,0 +1,29 @@
+.body {
+    background-color: lightskyblue; 
+}
+
+
+.aboutMeHeader {
+    text-align: center; 
+    padding-top: 25px;
+    /* padding-top: 45px;
+    padding-left: 30px;  */
+    font-size: 32px;
+}
+.aboutMeText {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 20px;
+    
+}
+
+.avatar {
+    display: flex;
+    Justify-Content: center;
+    padding-top: 40px;
+
+}
+
+.footer {
+    display: flex;
+}
