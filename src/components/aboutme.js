@@ -3,11 +3,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Footer from './footer';
-import '../App.css';
-
-
 import Navigation from "./navbar"
 import avatar from "../assets/images/AboutMePicture.jpg"
+import '../App.css';
+
 
 function AboutMe() {
     return (
@@ -16,8 +15,7 @@ function AboutMe() {
                 <Navigation />            
             </Row>
             <Row>
-                <Col md="2"></Col>
-                <Col md="4"></Col>
+                <Col md="6"></Col>
             </Row>
             <Row>
                 <Col md="9">

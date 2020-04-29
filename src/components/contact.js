@@ -11,9 +11,11 @@ import '../App.css';
 function Contact() {
     return (
         <Container fluid>
-            <Navigation />
+            <Row>
+                <Navigation />
+            </Row>
          Contact contents here
-         <Footer />
+            <Footer />
         </Container>
     );
 }
