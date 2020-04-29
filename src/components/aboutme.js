@@ -7,7 +7,7 @@ import '../App.css';
 
 
 import Navigation from "./navbar"
-import avatar from "../AboutMePicture.jpg"
+import avatar from "../assets/images/AboutMePicture.jpg"
 
 function AboutMe() {
     return (
@@ -22,15 +22,16 @@ function AboutMe() {
             <Row>
                 <Col md="9">
                     <div className="aboutMeHeader">
-                        Hello! | 안녕하세요!
+                        *Insert generic greeting here*
+                        {/* Hello! | 안녕하세요! */}
                     </div>
 
                     <div className="aboutMeText">
-                        Welcome! Here's a litte bit about me. <br></br><br></br>
+                        Here I'll have a bunch of text. <br></br><br></br>
 
-                        My name is Jason Kroening. Here you will find a list of various works done by me. They are here to demonstrate my skill-set and show some of what I am capable of creating.<br></br><br></br>
+                        Probably something about cool I am and how this is to showcase examples of my work. I'll probably need.<br></br><br></br>
 
-                        I am more than happy to discuss and answer any questions you may have regarding current or future projects. Please see the contact page for the best ways to open a line of communication.                  
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah  blah blah blah blah blah  blah blah blah blah blah  blah blah blah blah blah  blah blah blah blah blah  blah blah blah blah blah         
                     </div>                    
                 </Col>
                 <Col md="3">
