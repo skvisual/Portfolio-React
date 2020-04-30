@@ -1,13 +1,29 @@
 .body {
     background-color: #363d4491;
+    font-family: 'Poppins', sans-serif;
 }
 
+.navFont {
+    color: #fdc350 !important;
+    font-size: 150% !important;
+}
+
+.navFont2 {
+    font-size: 110% !important;
+}
+
+.navFont3 {
+    font-size: 100% !important;
+}
+
+
+.navShadow {
+    box-shadow: 0 8px 6px -6px black; 
+}
 
 .aboutMeHeader {
     text-align: center; 
     padding-top: 25px;
-    /* padding-top: 45px;
-    padding-left: 30px;  */
     font-size: 32px;
 }
 .aboutMeText {
@@ -24,20 +40,9 @@
 
 }
 
-.footer {
-    display: flex;
+.footerLogo {
+    padding-top: 3px;
 }
-
-/* .card-body {    
-    background-color: rgba(202, 202, 202, 0.507);
-} */
-
-/* .cardItem {
-    display: flex; 
-    position: relative;
-    top: 50px;
-    margin: 0 auto;
-} */
 
 .background {
     background-color:#00a2ff73;
@@ -67,5 +72,10 @@
 .carouselCol {
     display: flex;
     padding-top: 50px;
-    /* margin: 0 auto; */
 }
+
+.carouselRow1 {
+    display: flex;
+    place-content: center;
+}
+

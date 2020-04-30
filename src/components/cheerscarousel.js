@@ -3,15 +3,14 @@ import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Slider from './slider';
 import '../App.css';
 
 
 
-function portfolioCarousel() {
+function cheersCarousel() {
     return (
         <Container fluid>
-                <Col lg="6" className="carouselCol">
+                <Col className="carouselCol">
                     <Carousel className="carouselImage box">
                         <Carousel.Item>
                             <img
@@ -37,8 +36,13 @@ function portfolioCarousel() {
                         </Carousel.Item>
                     </Carousel>
                 </Col>
+                <div class="carouselButton">
+                    <Row>
+                    {/* <button>Button element</button> */}
+                    </Row>
+                </div>
         </Container>
     );
 }
 
-export default portfolioCarousel;
+export default cheersCarousel;

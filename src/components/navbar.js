@@ -11,14 +11,14 @@ function Navigation() {
 
     return (
         <Container fluid>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">sKv | Jason Kroening</Navbar.Brand>
+            <Navbar className="navShadow" collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar.Brand className="navFont">sKv</Navbar.Brand><Navbar.Brand className="navFont2">|</Navbar.Brand><Navbar.Brand className="navFont3">JASON KROENING</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>Home</Link>
-                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>Portfolio</Link>
-                        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>Contact</Link>
+                        <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>home</Link>
+                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>portfolio</Link>
+                        <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>contact</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBContainer, MDBFooter } from "mdbreact";
+import reactLogo from '../assets/images/reactlogosmall.png'
 
 const Footer = () => {
   return (    
@@ -11,7 +12,11 @@ const Footer = () => {
         <a href="https://www.twitter.com/_skvisual" target="_blank"><i class="fab fa-twitter fa-2x ghub"></i></a>
         </MDBContainer>
         {/* <br></br> */}
-        made with React and love.
+         
+        <div className="footerLogo">
+          made with&nbsp; <img src={reactLogo} alt="react-logo"/>
+        </div>
+
       </div>
     </MDBFooter>
   );
