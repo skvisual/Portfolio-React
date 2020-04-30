@@ -1,5 +1,5 @@
 .body {
-    background-color: lightskyblue; 
+    background-color: #363d4491;
 }
 
 
@@ -26,4 +26,46 @@
 
 .footer {
     display: flex;
+}
+
+/* .card-body {    
+    background-color: rgba(202, 202, 202, 0.507);
+} */
+
+/* .cardItem {
+    display: flex; 
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+} */
+
+.background {
+    background-color:#00a2ff73;
+}
+
+.ghub {
+    padding: 7px;
+    color:#343a40;
+}
+
+.carouselImage {
+    align-content: center;
+    max-width: 250px !important;
+    max-height: 250px !important
+}
+
+.box {
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.carouselCol {
+    display: flex;
+    padding-top: 50px;
+    /* margin: 0 auto; */
 }
