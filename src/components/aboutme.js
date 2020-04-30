@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Footer from './footer';
 import Navigation from "./navbar"
-import avatar from "../assets/images/AboutMePicture.jpg"
+import avatar from "../assets/images/sbuscemi.jpg"
 import '../App.css';
 
 
@@ -44,7 +44,8 @@ function AboutMe() {
                     <br></br>
                     <br></br>
                     <br></br>
-                    <br></br>                    
+                    <br></br>
+                    <br></br>
 
                 <Footer />
             </div>
