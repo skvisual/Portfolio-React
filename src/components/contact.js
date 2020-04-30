@@ -11,12 +11,37 @@ import '../App.css';
 function Contact() {
     return (
         <Container fluid>
-            <Row>
-                <Navigation />
-            </Row>
-         Contact contents here
-            <Footer />
+            <div className="background">
+                <Row>
+                    <Navigation />
+                </Row>
+                    Contact contents here
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>                    
+                    <br></br> 
+                    <br></br>   
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <br></br>                    
+                    <br></br> 
+                    <br></br>   
+                    <br></br>
+                    <br></br>                                   
+                    <br></br>                                   
+                    <Footer />
+            </div>
         </Container>
+
     );
 }
 
