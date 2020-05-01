@@ -17,7 +17,7 @@ function Navigation() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
                         <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>home</Link>
-                        <Link to="/portfolio" className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>portfolio</Link>
+                        <Link to="/components/pages/PortfolioPage" className={location.pathname === "/components/pages/PortfolioPage" ? "nav-link active" : "nav-link"}>portfolio</Link>
                         <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>contact</Link>
                     </Nav>
                 </Navbar.Collapse>
