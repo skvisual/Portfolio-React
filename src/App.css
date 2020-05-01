@@ -64,6 +64,7 @@
     
 }
 
+
 .box {
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -111,28 +112,48 @@
 }
 
 
-/* CHEERS MODAL */
-.modal-dialog-full-width {
-    width: 100% !important;
-    height: 100% !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    max-width:none !important;
+/* PAGE JUMBOTRON */
 
+.jtron {
+    margin: 0 auto;
+    position: relative;
+    top: 24px;
+    width: 100%;
+    height: 303px;
 }
 
-.modal-content-full-width  {
-    height: auto !important;
-    min-height: 100% !important;
-    border-radius: 0 !important;
-    background-color: #ececec !important 
+/* JUMBOTRON LIST GROUP */
+.list-group-item{
+    position: relative;
+    top: 200px;
+    /* height: 70px;
+    bottom: 8px; */
+    background-color:#00a2ff00 !important;
+    border-color:#00a2ff00 !important
+
+    
 }
 
-.modal-header-full-width  {
-    border-bottom: 1px solid #9ea2a2 !important;
+
+.cheerspageimage {
+    display: flex;
+    position: relative;
+    bottom: 65px;
+    max-height: 960px;
+    max-width: 540px;
 }
 
-.modal-footer-full-width  {
-    border-top: 1px solid #9ea2a2 !important;
+.navlinks {
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+    top: 50px;
 }
 
+.navlinktext {
+    font-weight: bold;
+    font-size: 17px;
+
+      color: #343a40 !important;
+
+}

@@ -8,6 +8,10 @@ import CheersPage from "./components/pages/CheersPage";
 import WhatsOnPage from './components/pages/WhatsOnPage';
 import EmpTrackerPage from './components/pages/EmpTrackerPage';
 import ReadmePage from './components/pages/ReadmePage';
+import CheersAbout from './components/pages/CheersAbout';
+import CheersFeatures from './components/pages/CheersFeatures';
+import CheersTech from './components/pages/CheersTech';
+import CheersCode from './components/pages/CheersCode';
 import './App.css';
 
 function App() {
@@ -22,7 +26,10 @@ function App() {
           <Route exact path="/components/pages/WhatsOnPage" component={WhatsOnPage} />
           <Route exact path="/components/pages/EmpTrackerPage" component={EmpTrackerPage} />
           <Route exact path="/components/pages/ReadmePage" component={ReadmePage} />
-
+          <Route exact path="/components/pages/CheersAbout" component={CheersAbout} />
+          <Route exact path="/components/pages/CheersFeatures" component={CheersFeatures} />
+          <Route exact path="/components/pages/CheersTech" component={CheersTech} />
+          <Route exact path="/components/pages/CheersCode" component={CheersCode} />
         </div>
       </Router>
 

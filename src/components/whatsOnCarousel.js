@@ -12,6 +12,13 @@ function WhatsOnCarousel() {
 
     const location = useLocation();
 
+    function renderPage() {
+        var x = location.pathname === "/components/pages/WhatsOnPage" ? "nav-link active" : "nav-link"
+        x += " portfoliobtn btn m-auto border"
+        return x;
+    }
+
+
 
     return (
         <Container fluid>
@@ -43,7 +50,9 @@ function WhatsOnCarousel() {
                 </Col>
                 <div class="carouselButton">
                     <Row>
-                    <Link to="/components/pages/WhatsOnPage" className={location.pathname === "/components/pages/WhatsOnPage" ? "nav-link active" : "nav-link"} className="portfoliobtn btn m-auto border">whatsOn</Link>
+                    <Link to="/components/pages/WhatsOnPage" className={renderPage()}>
+                        whatsOn
+                    </Link>                
                     </Row>
                 </div>
         </Container>
