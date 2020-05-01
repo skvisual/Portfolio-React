@@ -12,6 +12,7 @@ import '../../App.css';
 
 
 
+
 function PortfolioPage() {
     return (
         <Container fluid>
@@ -44,8 +45,7 @@ function PortfolioPage() {
                             <EmpTrackerCarousel />
                         </Col>
                     </Row>
-                </div>
-              
+                </div>             
                 <br></br>
                 <br></br>
                 <br></br>

@@ -3,23 +3,21 @@ import Container from 'react-bootstrap/Container';
 import Navigation from "../navbar";
 import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
-import PageNavLinks from '../PageNavLinks';
 import '../../App.css';
 
 
 
-function CheersPage() {
+function CheersTech() {
     return (
         <Container fluid>
             <div className="background">
                 <Row>
                     <Navigation />
                 </Row>
-                <PageNavLinks />
-                {/* <Row>
+                <Row>
                 <ul class="nav navlinks">
                         <li class="nav-item">
-                            <a class="nav-link navlinktext navabout" href="/components/pages/CheersAbout">About</a>
+                            <a class="nav-link navlinktext" href="/components/pages/CheersAbout">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navlinktext" href="/components/pages/CheersFeatures">Features</a>
@@ -31,8 +29,9 @@ function CheersPage() {
                             <a class="nav-link navlinktext" href="/components/pages/CheersCode">Code</a>
                         </li>
                     </ul>
-                    
-                </Row> */}
+                </Row>
+
+                CHEERS TECH PAGE
                 
 
                 {/* <div class="row list"> */}
@@ -76,7 +75,8 @@ function CheersPage() {
                 <br></br>
                 <br></br>
                 <br></br>
-              
+                <br></br>
+                <br></br>
                 <Footer />
             </div>
         </Container>
@@ -84,4 +84,4 @@ function CheersPage() {
     );
 }
 
-export default CheersPage;
+export default CheersTech;

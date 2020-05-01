@@ -1,7 +1,6 @@
 import React from "react";
 import Container from 'react-bootstrap/Container';
 import Carousel from 'react-bootstrap/Carousel';
-// import Button from './portfoliobutton';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import '../App.css';
@@ -21,6 +20,7 @@ function CheersCarousel() {
     }
 
     return (
+        
         <Container fluid>
             <Col className="carouselCol">
                 <Carousel className="carouselImage box">
@@ -48,9 +48,11 @@ function CheersCarousel() {
                     </Carousel.Item>
                 </Carousel>
             </Col>
+
+            
             <div class="carouselButton">
                 <Row>
-                    <Link to="/components/pages/cheerspage" className={renderPage()} id="modalActivate" data-toggle="modal" data-target="#exampleModalPreview">
+                    <Link to="/components/pages/cheerspage" className={renderPage()}>
                         cheers!
                     </Link>                
                 </Row>
