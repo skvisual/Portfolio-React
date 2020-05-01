@@ -4,6 +4,9 @@ import Navigation from "../navbar";
 import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
 import PageNavLinks from '../PageNavLinks';
+import CheersScroller from '../CheersScroller';
+import Col from 'react-bootstrap/Col';
+
 import '../../App.css';
 
 
@@ -16,42 +19,24 @@ function CheersPage() {
                     <Navigation />
                 </Row>
                 <PageNavLinks />
-                {/* <Row>
-                <ul class="nav navlinks">
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext navabout" href="/components/pages/CheersAbout">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersFeatures">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersTech">Tech</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersCode">Code</a>
-                        </li>
-                    </ul>
-                    
-                </Row> */}
-                
+                <Row>
+                    <div className="jumbotron jumbotron-fluid jtron box">
+                        <div className="container">
+                            <h1 className="display-2 infoheader">cheers!</h1>
+                            <p className="infosubheader">see who's smartest. see who's funniest.</p>
+                            <p className="infosubheader">cheers.</p>
 
-                {/* <div class="row list"> */}
-                {/* <div class="col-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <a class="list-group-item list-group-item-action" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">About</a>
-                            <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Features</a>
-                            <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Technology</a>
-                            <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">See the code</a>
                         </div>
+                            <Col sm="6">
+                            <p className="infosubheader subheadertext">cheers! is an online, table-game inspired multiplayer application. It utilizes several technologies; And delivers a fun, fast-paced experience to enjoy with your favorite people. </p>
+                            <br></br>
+                                
+                            </Col>
+                            
+
                     </div>
-                    <div class="col-8">
-                        <div class="tab-content" id="nav-tabContent">
-                            <div class="tab-pane fade" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Cool things!</div>
-                            <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">.sfsfs..</div>
-                            <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">..ewffwe.</div>
-                            <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">..wefe.</div>
-                        </div>
-                    </div> */}
+
+                </Row>
                 <br></br>
                 <br></br>
                 <br></br>
@@ -63,20 +48,6 @@ function CheersPage() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-              
                 <Footer />
             </div>
         </Container>
