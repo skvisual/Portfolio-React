@@ -11,9 +11,6 @@ function PageNavLinks() {
             <Row>
                 <ul class="nav navlinks">
                         <li class="nav-item">
-                            <a class="nav-link navlinktext navabout" href="/components/pages/CheersAbout">About</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link navlinktext" href="/components/pages/CheersFeatures">Features</a>
                         </li>
                         <li class="nav-item">

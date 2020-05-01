@@ -115,22 +115,34 @@
 /* PAGE JUMBOTRON */
 
 .jtron {
+    display: inline-flex;
     margin: 0 auto;
     position: relative;
-    top: 24px;
-    width: 100%;
-    height: 303px;
+    top: 80px;
+    width: 80%;
+    height: 500px;
+    background-color:#343a40c2 !important;
+    color: rgb(231, 231, 231) !important;
 }
 
-/* JUMBOTRON LIST GROUP */
-.list-group-item{
+.infoheader {
+    display: flex;
     position: relative;
-    top: 200px;
-    /* height: 70px;
-    bottom: 8px; */
-    background-color:#00a2ff00 !important;
-    border-color:#00a2ff00 !important
+    justify-content: center;
+    bottom: 10px;
+    font-size: 60px !important;
+    
+}
 
+.infosubheader {
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+}
+
+.subheadertext {
+    display: flex;
+    position: relative;
     
 }
 
@@ -143,6 +155,7 @@
     max-width: 540px;
 }
 
+
 .navlinks {
     display: flex;
     position: relative;
@@ -151,9 +164,12 @@
 }
 
 .navlinktext {
-    font-weight: bold;
-    font-size: 17px;
+    display: flex;
+    font-weight: bolder;
+    font-size: 20px;
 
       color: #343a40 !important;
 
 }
+
+/* CHEERS SCROLLER */
