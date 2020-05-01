@@ -1,6 +1,6 @@
 .body {
     background-color: #363d4491;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif !important;
 }
 
 .navFont {
@@ -9,10 +9,13 @@
 }
 
 .navFont2 {
+    font-weight: bolder;
+    color: #00a2ff73 !important;
     font-size: 110% !important;
 }
 
 .navFont3 {
+    color: #fdc350 !important;
     font-size: 100% !important;
 }
 
@@ -51,12 +54,14 @@
 .ghub {
     padding: 7px;
     color:#343a40;
+    /* color:#fdc350 */
 }
 
 .carouselImage {
     align-content: center;
     max-width: 250px !important;
-    max-height: 250px !important
+    max-height: 250px !important;
+    
 }
 
 .box {
@@ -77,5 +82,57 @@
 .carouselRow1 {
     display: flex;
     place-content: center;
+}
+
+.carouselRow2 {
+    display: flex;
+    place-content: center;
+
+}
+
+.portfoliobtn {
+    display: flex;
+    position: relative;
+    top: 20px;
+    width: 59%;
+    color: rgb(231, 231, 231) !important;
+    
+
+}
+
+.portfoliobtn:hover {
+    border-color: #fdc350 !important;
+    color: #fdc350 !important;
+}
+
+
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
+    display: none !important;
+}
+
+
+/* CHEERS MODAL */
+.modal-dialog-full-width {
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width:none !important;
+
+}
+
+.modal-content-full-width  {
+    height: auto !important;
+    min-height: 100% !important;
+    border-radius: 0 !important;
+    background-color: #ececec !important 
+}
+
+.modal-header-full-width  {
+    border-bottom: 1px solid #9ea2a2 !important;
+}
+
+.modal-footer-full-width  {
+    border-top: 1px solid #9ea2a2 !important;
 }
 
