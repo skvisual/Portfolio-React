@@ -16,12 +16,14 @@
 
 .navFont2 {
     font-weight: bolder;
-    color: #00a2ff73 !important;
+    /* color: #00a2ff73 !important; */
     font-size: 110% !important;
 }
 
 .navFont3 {
-    color: #fdc350 !important;
+        color: #00a2ff73 !important;
+
+    /* color: #fdc350 !important; */
     font-size: 100% !important;
 }
 
@@ -138,6 +140,11 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.747);
 }
 
+  .container {
+    height: 400px;
+  }
+
+
 .jtronFeatures {
     display: inline-flex;
     margin: 0 auto;
@@ -154,9 +161,27 @@
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.747);
 }
 
+.jtronCode {
+    display: inline-flex;
+    margin: 0 auto;
+    position: relative;
+    top: 80px;
+    width: 80%;
+    background-color:#343a40 !important;
+    color: rgb(231, 231, 231) !important;
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.63); */
+}
+
+
 .jtronText {
     position: relative;
     top: 20px;
+    text-align: center;    
+}
+
+.jtronCodeIcons {
+    position: relative;
+    top: 70px;
     text-align: center;    
 }
 
@@ -164,7 +189,7 @@
     position: relative;
     bottom: 30px;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .jtronSubText {
@@ -176,7 +201,7 @@
 
 .jtronSubText2 {
     position: relative;
-    bottom: 86px;
+    bottom: 82px;
     font-size: 22px;
     /* font-weight: bold; */
 }
@@ -191,7 +216,16 @@
 .jtronSubTexBody {
     font-size: 16px;
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
+}
+
+.pageicon {
+    color: #fdc350 !important;
+}
+
+.codeIcons {
+    position: relative;
+    top: 90px;
 }
 
 /* INFO PAGE NAVIGATION LINKS */
@@ -211,3 +245,8 @@
 
 }
 
+/* SCROLL TO TOP BUTTON */
+
+
+   
+    

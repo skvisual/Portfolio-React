@@ -11,13 +11,13 @@ function PageNavLinks() {
             <Row>
                 <ul class="nav navlinks">
                         <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersFeatures">Features</a>
+                            <a class="nav-link navlinktext" href="/components/pages/CheersFeatures">features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersTech">Tech</a>
+                            <a class="nav-link navlinktext" href="/components/pages/CheersTech">tech</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersCode">Code</a>
+                            <a class="nav-link navlinktext" href="/components/pages/CheersCode">code</a>
                         </li>
                     </ul>
             </Row>
