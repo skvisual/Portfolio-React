@@ -40,12 +40,7 @@ function CheersPage() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                            
                 <Footer />
             </div>
         </Container>
