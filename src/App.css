@@ -3,6 +3,12 @@
     font-family: 'Poppins', sans-serif !important;
 }
 
+.background {
+    background-color:#00a2ff73;
+}
+
+
+/* NAVBAR */
 .navFont {
     color: #fdc350 !important;
     font-size: 150% !important;
@@ -19,10 +25,12 @@
     font-size: 100% !important;
 }
 
-
 .navShadow {
     box-shadow: 0 8px 6px -6px black; 
 }
+
+
+/* ABOUT ME PAGE */
 
 .aboutMeHeader {
     text-align: center; 
@@ -47,9 +55,8 @@
     padding-top: 3px;
 }
 
-.background {
-    background-color:#00a2ff73;
-}
+
+/* MEDIA CONTACT ICONS */
 
 .ghub {
     padding: 7px;
@@ -57,13 +64,7 @@
     /* color:#fdc350 */
 }
 
-.carouselImage {
-    align-content: center;
-    max-width: 250px !important;
-    max-height: 250px !important;
-    
-}
-
+/* BOX SHADOW */
 
 .box {
     box-shadow:
@@ -73,6 +74,15 @@
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+/* PORTFOLIO CAROUSELS */
+
+.carouselImage {
+    align-content: center;
+    max-width: 250px !important;
+    max-height: 250px !important;
+    
 }
 
 .carouselCol {
@@ -91,14 +101,18 @@
 
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
+    display: none !important;
+}
+
+
+/* PORTFOLIO PAGE BUTTONS */
 .portfoliobtn {
     display: flex;
     position: relative;
     top: 20px;
     width: 59%;
-    color: rgb(231, 231, 231) !important;
-    
-
+    color: rgb(231, 231, 231) !important;   
 }
 
 .portfoliobtn:hover {
@@ -106,13 +120,7 @@
     color: #fdc350 !important;
 }
 
-
-.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
-    display: none !important;
-}
-
-
-/* PAGE JUMBOTRON */
+/* INFO PAGE JUMBOTRON */
 
 .jtron {
     display: inline-flex;
@@ -121,41 +129,56 @@
     top: 80px;
     width: 80%;
     height: 500px;
+    background-image: url("https://i.ibb.co/HGLd2rt/Cheers-Main-Screen-FULLv2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color:#343a40c2 !important;
     color: rgb(231, 231, 231) !important;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.671);
 }
 
-.infoheader {
+.jtronText {
+    position: relative;
+    top: 20px;
+    text-align: center;    
+}
+
+.jtronHeader {
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.jtronSubText {
+    position: relative;
+    bottom: 64px;
+    font-size: 22px;
+    /* font-weight: bold; */
+}
+
+.jtronSubText2 {
+    position: relative;
+    bottom: 86px;
+    font-size: 22px;
+    /* font-weight: bold; */
+}
+
+.jtronImage {
     display: flex;
     position: relative;
-    justify-content: center;
-    bottom: 10px;
-    font-size: 60px !important;
-    
+    bottom: 17px;
+
 }
 
-.infosubheader {
-    display: flex;
-    justify-content: center;
-    z-index: 4;
-}
-
-.subheadertext {
-    display: flex;
+.jtronSubTexBody {
+    font-size: 16px;
     position: relative;
-    
+    bottom: 40px;
 }
 
-
-.cheerspageimage {
-    display: flex;
-    position: relative;
-    bottom: 65px;
-    max-height: 960px;
-    max-width: 540px;
-}
-
-
+/* INFO PAGE NAVIGATION LINKS */
 .navlinks {
     display: flex;
     position: relative;
@@ -172,4 +195,3 @@
 
 }
 
-/* CHEERS SCROLLER */
