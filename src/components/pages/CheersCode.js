@@ -4,6 +4,9 @@ import Navigation from "../navbar";
 import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
 import PageNavLinks from '../PageNavLinks';
+// import CheersScroller from '../CheersScroller';
+import Col from 'react-bootstrap/Col';
+
 import '../../App.css';
 
 
@@ -16,35 +19,26 @@ function CheersCode() {
                     <Navigation />
                 </Row>
                 <PageNavLinks />
-                CHEERS CODE PAGE
-                
+                <Row>
+                    <div className="jumbotron jumbotron-fluid jtronCode box">
+                        <div className="container">
+                            <Col>
+                                <div className="jtronCodeIcons">
+                                        <div className="jtronSubTexBody">
+                                            <p>see the code.</p>
+                                            <a href="https://github.com/maxwellhankner/drinking-game" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-4x pageicon"></i></a><br></br>
+                                            <div className="codeIcons">
+                                                <p> play the game.</p>
+                                                <a href="https://safe-cove-74547.herokuapp.com/" target="_blank" rel="noopener norefferer"><i class="fas fa-gamepad fa-4x pageicon"></i></a>
+                                            </div>
 
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                                        </div>
+                                </div>
+                            </Col>
+                        </div>
+                    </div>
+                </Row>
+               
                 <Footer />
             </div>
         </Container>
