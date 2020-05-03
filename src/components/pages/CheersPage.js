@@ -24,11 +24,12 @@ function CheersPage() {
                         <div className="container">
                             <Col>
                                 <div className="jtronText">
-                                    <h1 className="display-4">cheers!</h1>
-                                    <p>see who's smartest. see who's funniest.</p>
-                                    <p>cheers.</p>
+                                    <p className="jtronHeader">cheers!</p>
+                                    <p className="jtronSubText">see who's smartest. see who's funniest.</p><p className="jtronSubText2">cheers.</p>
+                                    <div className="jtronSubTexBody">
                                     <p>cheers! is an online, table-game inspired  multiplayer application.</p>
                                     <p>It utilizes several technologies to deliver a fun, fast-paced experience to enjoy with your favorite people. </p>
+                                    </div>
                                 </div>
                             </Col>
                         </div>

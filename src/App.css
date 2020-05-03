@@ -3,6 +3,12 @@
     font-family: 'Poppins', sans-serif !important;
 }
 
+.background {
+    background-color:#00a2ff73;
+}
+
+
+/* NAVBAR */
 .navFont {
     color: #fdc350 !important;
     font-size: 150% !important;
@@ -19,10 +25,12 @@
     font-size: 100% !important;
 }
 
-
 .navShadow {
     box-shadow: 0 8px 6px -6px black; 
 }
+
+
+/* ABOUT ME PAGE */
 
 .aboutMeHeader {
     text-align: center; 
@@ -47,9 +55,8 @@
     padding-top: 3px;
 }
 
-.background {
-    background-color:#00a2ff73;
-}
+
+/* MEDIA CONTACT ICONS */
 
 .ghub {
     padding: 7px;
@@ -57,13 +64,7 @@
     /* color:#fdc350 */
 }
 
-.carouselImage {
-    align-content: center;
-    max-width: 250px !important;
-    max-height: 250px !important;
-    
-}
-
+/* BOX SHADOW */
 
 .box {
     box-shadow:
@@ -73,6 +74,15 @@
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+/* PORTFOLIO CAROUSELS */
+
+.carouselImage {
+    align-content: center;
+    max-width: 250px !important;
+    max-height: 250px !important;
+    
 }
 
 .carouselCol {
@@ -91,26 +101,24 @@
 
 }
 
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
+    display: none !important;
+}
+
+
+/* PORTFOLIO PAGE BUTTONS */
 .portfoliobtn {
     display: flex;
     position: relative;
     top: 20px;
     width: 59%;
-    color: rgb(231, 231, 231) !important;
-    
-
+    color: rgb(231, 231, 231) !important;   
 }
 
 .portfoliobtn:hover {
     border-color: #fdc350 !important;
     color: #fdc350 !important;
 }
-
-
-.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
-    display: none !important;
-}
-
 
 /* INFO PAGE JUMBOTRON */
 
@@ -121,7 +129,7 @@
     top: 80px;
     width: 80%;
     height: 500px;
-    background-image: url("https://i.ibb.co/4KWSjHy/Cheers-Main-Screen-FULL.png");
+    background-image: url("https://i.ibb.co/HGLd2rt/Cheers-Main-Screen-FULLv2.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -131,9 +139,30 @@
 }
 
 .jtronText {
-    text-align: center;
     position: relative;
-    top: 35px;
+    top: 20px;
+    text-align: center;    
+}
+
+.jtronHeader {
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.jtronSubText {
+    position: relative;
+    bottom: 64px;
+    font-size: 22px;
+    /* font-weight: bold; */
+}
+
+.jtronSubText2 {
+    position: relative;
+    bottom: 86px;
+    font-size: 22px;
+    /* font-weight: bold; */
 }
 
 .jtronImage {
@@ -143,15 +172,13 @@
 
 }
 
-.cheerspageimage {
-    display: flex;
+.jtronSubTexBody {
+    font-size: 16px;
     position: relative;
-    bottom: 65px;
-    max-height: 960px;
-    max-width: 540px;
+    bottom: 40px;
 }
 
-
+/* INFO PAGE NAVIGATION LINKS */
 .navlinks {
     display: flex;
     position: relative;
@@ -168,4 +195,3 @@
 
 }
 
-/* CHEERS SCROLLER */
