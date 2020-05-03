@@ -12,7 +12,7 @@ import CheersAbout from './components/pages/CheersAbout';
 import CheersFeatures from './components/pages/CheersFeatures';
 import CheersTech from './components/pages/CheersTech';
 import CheersCode from './components/pages/CheersCode';
-import './App.css';
+import './App.css' ;
 
 function App() {
   return (
