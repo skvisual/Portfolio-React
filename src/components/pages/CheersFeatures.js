@@ -5,7 +5,6 @@ import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
 import PageNavLinks from '../PageNavLinks';
 // import CheersScroller from '../CheersScroller';
-import Col from 'react-bootstrap/Col';
 import '../../App.css';
 
 
