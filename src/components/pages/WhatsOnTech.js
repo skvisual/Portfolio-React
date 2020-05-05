@@ -24,9 +24,9 @@ function WhatsOnTech() {
                                     <p className="jtronHeader">tech</p>
                                     <div className="jtronSubTexBody">
                                     <p>whatsOn utilizes these technologies.</p>
-                                            <p>- Node.js</p>
+                                            {/* <p>- Node.js</p>
                                             <p>- Express</p>
-                                            <p>- jQuery</p>
+                                            <p>- jQuery</p> */}
                                     </div>
                                 </div>
                             {/* </Col> */}
