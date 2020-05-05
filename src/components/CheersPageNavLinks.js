@@ -5,25 +5,25 @@ import '../App.css';
 
 
 
-function PageNavLinks() {
+function CheersPageNavLinks() {
     return (
         <Container fluid>
-            <Row>
-                <ul class="nav navlinks">
+               <Row>
+                    <ul class="nav navlinks">
                         <li class="nav-item">
                             <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersFeatures">features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersTech">tech</a>
+                            <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersTech">tech</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersCode">code</a>
+                            <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersCode">code</a>
                         </li>
                     </ul>
-            </Row>
+                    </Row>
         </Container>
 
     );
 }
 
-export default PageNavLinks;
+export default CheersPageNavLinks;
