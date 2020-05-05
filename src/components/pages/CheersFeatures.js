@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navigation from "../navbar";
 import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
-import PageNavLinks from '../PageNavLinks';
+import CheersPageNavLinks from '../CheersPageNavLinks';
 // import CheersScroller from '../CheersScroller';
 import '../../App.css';
 
@@ -16,7 +16,7 @@ function CheersFeatures() {
                 <Row>
                     <Navigation />
                 </Row>
-                <PageNavLinks />
+                <CheersPageNavLinks />
                 <Row>
                     <div className="jumbotron jumbotron-fluid jtronFeatures box">
                         <div className="container">

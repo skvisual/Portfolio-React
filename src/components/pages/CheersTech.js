@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Navigation from "../navbar";
 import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
-import PageNavLinks from '../PageNavLinks';
+import PageNavLinks from '../CheersPageNavLinks';
 // import CheersScroller from '../CheersScroller';
 import Col from 'react-bootstrap/Col';
 

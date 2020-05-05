@@ -4,12 +4,11 @@ import Navigation from "../navbar";
 import Row from 'react-bootstrap/Row';
 import Footer from '../footer';
 import WhatsOnPageNavLinks from '../WhatsOnPageNavLinks';
-import Col from 'react-bootstrap/Col';
 import '../../App.css';
 
 
 
-function WhatsOnPage() {
+function WhatsOnFeatures() {
     return (
         <Container fluid>
             <div className="background">
@@ -18,27 +17,24 @@ function WhatsOnPage() {
                 </Row>
                 <WhatsOnPageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtron box">
+                    <div className="jumbotron jumbotron-fluid jtronFeatures box">
                         <div className="container">
-                            <Col>
+                            {/* <Col> */}
                                 <div className="jtronText">
-                                    <p className="jtronHeader">whatsOn</p>
-                                    <p className="jtronSubText">more watching. less searching.</p>
+                                    <p className="jtronHeader">features</p>
                                     <div className="jtronSubTexBody">
-                                    <p>whatsOn makes finding new movies to watch a breeze.</p>
-                                    <p>It allows a user to search a movie title and find which streaming services are currently offering it.</p>
+                                        {/* <p>- Mobile first design ensures proper performance across all devices and platforms.</p>
+                                        <p>- Progressive Web Application</p>
+                                        <p>- Customize the game to your liking by adding their own prompts.</p>
+                                        <p>- NO cost. NO additional downloads.</p> */}
                                     </div>
                                 </div>
-                            </Col>
+                            {/* </Col> */}
                         </div>
                     </div>
                 </Row>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                            
                 <Footer />
             </div>
         </Container>
@@ -46,4 +42,4 @@ function WhatsOnPage() {
     );
 }
 
-export default WhatsOnPage;
+export default WhatsOnFeatures;
