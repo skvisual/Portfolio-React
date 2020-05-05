@@ -11,7 +11,7 @@ function PageNavLinks() {
             <Row>
                 <ul class="nav navlinks">
                         <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/components/pages/CheersFeatures">features</a>
+                            <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersFeatures">features</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navlinktext" href="/components/pages/CheersTech">tech</a>
