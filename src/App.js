@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import AboutMePage from "./components/pages/AboutMePage";
 import PortfolioPage from "./components/pages/PortfolioPage";
@@ -40,4 +40,3 @@ function App() {
 
 export default App;
 
-// test change

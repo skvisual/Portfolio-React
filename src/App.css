@@ -110,7 +110,7 @@
 
 /* PORTFOLIO PAGE BUTTONS */
 .portfoliobtn {
-    display: flex;
+    /* display: flex; */
     position: relative;
     top: 20px;
     width: 59%;
