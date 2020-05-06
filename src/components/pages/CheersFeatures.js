@@ -20,7 +20,6 @@ function CheersFeatures() {
                 <Row>
                     <div className="jumbotron jumbotron-fluid jtronFeatures box">
                         <div className="container">
-                            {/* <Col> */}
                                 <div className="jtronText">
                                     <p className="jtronHeader">features</p>
                                     <div className="jtronSubTexBody">
@@ -30,12 +29,10 @@ function CheersFeatures() {
                                         <p>- NO cost. NO additional downloads.</p>
                                     </div>
                                 </div>
-                            {/* </Col> */}
                         </div>
                     </div>
                 </Row>
-                <br></br>
-                <br></br>
+              
                 <Footer />
             </div>
         </Container>

@@ -52,16 +52,7 @@ function PortfolioPage() {
                 <br></br>
                 <br></br>
                 <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+          
                 <Footer />
             </div>
         </Container>

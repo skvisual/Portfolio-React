@@ -26,18 +26,14 @@ function WhatsOnPage() {
                                     <p className="jtronSubText">more watching. less searching.</p>
                                     <div className="jtronSubTexBody">
                                     <p>whatsOn makes finding new movies to watch a breeze.</p>
-                                    <p>It allows a user to search a movie title and find which streaming services are currently offering it.</p>
+                                    <p>whatsOn allows a user to search a movie title and find which streaming services are currently offering it. Also enables the user to search for a movie currently playing in the theatres.</p>
                                     </div>
                                 </div>
                             </Col>
                         </div>
                     </div>
                 </Row>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
-                <br></br>
+                
                             
                 <Footer />
             </div>

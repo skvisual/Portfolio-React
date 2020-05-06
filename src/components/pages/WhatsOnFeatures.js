@@ -23,18 +23,17 @@ function WhatsOnFeatures() {
                                 <div className="jtronText">
                                     <p className="jtronHeader">features</p>
                                     <div className="jtronSubTexBody">
-                                        {/* <p>- Mobile first design ensures proper performance across all devices and platforms.</p>
-                                        <p>- Progressive Web Application</p>
-                                        <p>- Customize the game to your liking by adding their own prompts.</p>
-                                        <p>- NO cost. NO additional downloads.</p> */}
+                                        <p>- Responsive design lets the user access the application from anywhere.</p>
+                                        <p>- Carousels hightlight a random selection of films based upon your preferences.</p>
+                                        <p>- Search theater listings by zip code.</p>
+                                        <p>- User preferences stored to ease usability.</p>
                                     </div>
                                 </div>
                             {/* </Col> */}
                         </div>
                     </div>
                 </Row>
-                <br></br>
-                <br></br>
+                
                 <Footer />
             </div>
         </Container>
