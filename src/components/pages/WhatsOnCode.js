@@ -22,7 +22,7 @@ function WhatsOnCode() {
                     <div className="jumbotron jumbotron-fluid jtronCode box">
                         <div className="container">
                             <Col>
-                                <div className="jtronCodeIcons">
+                                <div className="jtronCodeIconsWhatsOn">
                                         <div className="jtronSubTexBody">
                                             <p>see the code.</p>
                                             <a href="https://github.com/lhirsch1/whatsOn" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-4x pageicon"></i></a><br></br>

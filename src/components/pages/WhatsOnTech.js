@@ -24,17 +24,16 @@ function WhatsOnTech() {
                                     <p className="jtronHeader">tech</p>
                                     <div className="jtronSubTexBody">
                                     <p>whatsOn utilizes these technologies.</p>
-                                            {/* <p>- Node.js</p>
-                                            <p>- Express</p>
-                                            <p>- jQuery</p> */}
+                                        <p>- AJAX</p>
+                                        <p>- jQuery</p>
+                                        <p>- Bootstrap</p>
                                     </div>
                                 </div>
                             {/* </Col> */}
                         </div>
                     </div>
                 </Row>
-                <br></br>
-                <br></br>
+            
                 <Footer />
             </div>
         </Container>

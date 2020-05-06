@@ -185,6 +185,12 @@
     text-align: center;    
 }
 
+.jtronCodeIconsWhatsOn {
+    position: relative;
+    top: 70px;
+    text-align: center; 
+
+}
 .jtronHeader {
     position: relative;
     bottom: 30px;
