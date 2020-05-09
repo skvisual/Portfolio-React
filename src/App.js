@@ -15,7 +15,7 @@ import WhatsOnPage from './components/pages/WhatsOnPage';
 import WhatsOnFeatures from './components/pages/WhatsOnFeatures';
 import WhatsOnTech from './components/pages/WhatsOnTech';
 import WhatsOnCode from './components/pages/WhatsOnCode';
-import './App.css' ;
+import './App.css';
 
 function App() {
   return (
