@@ -1,1 +1,1 @@
-# Personal Portfolio --React revision
+# Personal Portfolio
