@@ -35,7 +35,7 @@ function CheersCarousel() {
                         <img
                             className="d-block w-100 carouselImage"
                             src="https://i.ibb.co/64m1KC2/cheers-SS3.png"
-                            alt="Third slide"
+                            alt="Second slide"
                         />
 
                     </Carousel.Item>
