@@ -80,28 +80,32 @@
 
 /* PORTFOLIO CAROUSELS */
 
+.carouseldiv {
+    justify-content: center;
+}
 .carouselImage {
-    align-content: center;
-    max-width: 250px !important;
-    max-height: 250px !important;
+    display: flex;
+    /* align-content: center; */
+    max-width: 750px !important;
+    max-height: 750px !important;
     
 }
 
 .carouselCol {
-    display: flex;
+    /* display: flex; */
     padding-top: 50px;
 }
 
-.carouselRow1 {
+/* .carouselRow1 {
     display: flex;
     place-content: center;
-}
+} */
 
-.carouselRow2 {
+/* .carouselRow2 {
     display: flex;
     place-content: center;
 
-}
+} */
 
 .carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicators {
     display: none !important;

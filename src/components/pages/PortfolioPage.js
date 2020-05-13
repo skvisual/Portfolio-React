@@ -17,27 +17,34 @@ function PortfolioPage() {
     return (
         <Container fluid>
             <div className="background">
-                <Row>
-                    <Navigation />
-                </Row>
-                <Col md="4">
-                   <CheersCarousel />
-                </Col>
-                <Col md="4">
-                    <WhatsOnCarousel /> 
-                </Col>        
-                <Col md="4">
-                    <EmpTrackerCarousel />
-                </Col>    
-                <Col md="4">
-                    <ReadMeCarousel />
-                </Col>
-                <Col md="4">
-                    <WhatsOnCarousel />
-                </Col>
-                <Col md="4">
-                    <EmpTrackerCarousel />
-                </Col>
+                <div className="carouseldiv">
+                    <Row className="carouseldiv">
+                        <Navigation />
+                    </Row>
+
+                    <Row className="carouseldiv">
+                        <Col md="5">
+                            <CheersCarousel />
+                        </Col>
+
+                        <Col md="5">
+                            <WhatsOnCarousel />
+                        </Col>
+                    </Row>
+                    <Row className="carouseldiv">
+                        <Col md="5">
+                            <EmpTrackerCarousel />
+                        </Col>
+                        <Col md="5">
+                            <ReadMeCarousel />
+                        </Col>
+                    </Row>
+                    <Row className="carouseldiv">    
+                        <Col md="5">
+                            <WhatsOnCarousel />
+                        </Col>
+                    </Row>
+                </div>
                 <br></br>
                 <br></br>
                 <br></br>
