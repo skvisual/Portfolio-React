@@ -34,7 +34,7 @@ function CheersCarousel() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImage"
-                            src="https://i.ibb.co/Lntc36S/cheers-SS1.png"
+                            src="https://i.ibb.co/64m1KC2/cheers-SS3.png"
                             alt="Third slide"
                         />
 
@@ -42,7 +42,7 @@ function CheersCarousel() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100 carouselImage"
-                            src="https://i.ibb.co/Lntc36S/cheers-SS1.png"
+                            src="https://i.ibb.co/fkJ93Bg/cheers-SS4.png"
                             alt="Third slide"
                         />
                     </Carousel.Item>

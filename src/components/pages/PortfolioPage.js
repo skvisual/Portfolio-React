@@ -20,32 +20,24 @@ function PortfolioPage() {
                 <Row>
                     <Navigation />
                 </Row>
-                <div className="carouselRow1">
-                    <Row>
-                        <Col lg="4">
-                            <CheersCarousel />
-                        </Col>
-                        <Col lg="4">
-                            <WhatsOnCarousel />
-                        </Col>
-                        <Col lg="4">
-                            <EmpTrackerCarousel />
-                        </Col>
-                    </Row>
-                </div>
-                <div className="carouselRow1">
-                    <Row>
-                        <Col lg="4">
-                            <ReadMeCarousel />
-                        </Col>
-                        <Col lg="4">
-                            <WhatsOnCarousel />
-                        </Col>
-                        <Col lg="4">
-                            <EmpTrackerCarousel />
-                        </Col>
-                    </Row>
-                </div>             
+                <Col md="4">
+                   <CheersCarousel />
+                </Col>
+                <Col md="4">
+                    <WhatsOnCarousel /> 
+                </Col>        
+                <Col md="4">
+                    <EmpTrackerCarousel />
+                </Col>    
+                <Col md="4">
+                    <ReadMeCarousel />
+                </Col>
+                <Col md="4">
+                    <WhatsOnCarousel />
+                </Col>
+                <Col md="4">
+                    <EmpTrackerCarousel />
+                </Col>
                 <br></br>
                 <br></br>
                 <br></br>
