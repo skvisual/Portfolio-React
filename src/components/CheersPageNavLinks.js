@@ -9,15 +9,15 @@ function CheersPageNavLinks() {
     return (
         <Container fluid>
                <Row>
-                    <ul class="nav navlinks">
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersFeatures">features</a>
+                    <ul className="nav navlinks">
+                        <li className="nav-item">
+                            <a className="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersFeatures">features</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersTech">tech</a>
+                        <li className="nav-item">
+                            <a className="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersTech">tech</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersCode">code</a>
+                        <li className="nav-item">
+                            <a className="nav-link navlinktext" href="/Portfolio-React/#/components/pages/CheersCode">code</a>
                         </li>
                     </ul>
                     </Row>

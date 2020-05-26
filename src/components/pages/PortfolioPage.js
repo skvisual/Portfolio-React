@@ -2,6 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Navigation from "../navbar";
 import Footer from '../footer';
+import SquigglepigCarousel from '../SquigglepigCarousel';
 import CheersCarousel from '../cheerscarousel';
 import WhatsOnCarousel from '../whatsOnCarousel';
 import EmpTrackerCarousel from '../emptrackercarousel';
@@ -22,28 +23,31 @@ function PortfolioPage() {
                         <Navigation />
                     </Row>
 
-                    <Row className="carouseldiv">
+                    <Row className="carouseldiv">    
+                        <Col md="5">
+                            <SquigglepigCarousel />
+                        </Col>
                         <Col md="5">
                             <CheersCarousel />
-                        </Col>
-
-                        <Col md="5">
-                            <WhatsOnCarousel />
                         </Col>
                     </Row>
                     <Row className="carouseldiv">
                         <Col md="5">
+                            <WhatsOnCarousel />
+                        </Col>
+                        <Col md="5">
                             <EmpTrackerCarousel />
                         </Col>
+                    </Row>
+                    <Row className="carouseldiv">
+                    <Col md="5">
+                            <WhatsOnCarousel />
+                        </Col>                        
                         <Col md="5">
                             <ReadMeCarousel />
                         </Col>
                     </Row>
-                    <Row className="carouseldiv">    
-                        <Col md="5">
-                            <WhatsOnCarousel />
-                        </Col>
-                    </Row>
+                                        
                 </div>
                 <br></br>
                 <br></br>

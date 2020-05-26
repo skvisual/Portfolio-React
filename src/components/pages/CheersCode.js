@@ -28,7 +28,7 @@ function CheersCode() {
                                             <a href="https://github.com/maxwellhankner/drinking-game" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-4x pageicon"></i></a><br></br>
                                             <div className="codeIcons">
                                                 <p> play the game.</p>
-                                                <a href="https://safe-cove-74547.herokuapp.com/" target="_blank" rel="noopener norefferer"><i class="fas fa-gamepad fa-4x pageicon"></i></a>
+                                                <a href="https://safe-cove-74547.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-gamepad fa-4x pageicon"></i></a>
                                             </div>
 
                                         </div>
