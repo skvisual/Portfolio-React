@@ -18,7 +18,7 @@ function CheersFeatures() {
                 </Row>
                 <CheersPageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtronFeatures box">
+                    <div className="jumbotron jumbotron-fluid jtron-center cheersjtronfeatures box">
                         <div className="container">
                                 <div className="jtronText">
                                     <p className="jtronHeader">features</p>

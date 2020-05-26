@@ -17,7 +17,7 @@ function WhatsOnTech() {
                 </Row>
                 <WhatsOnPageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtronFeatures box">
+                    <div className="jumbotron jumbotron-fluid jtron-top whatsontech box">
                         <div className="container">
                             {/* <Col> */}
                                 <div className="jtronText">

@@ -24,8 +24,8 @@ function WhatsOnCode() {
                             <Col>
                                 <div className="jtronCodeIconsWhatsOn">
                                         <div className="jtronSubTexBody">
-                                            <p>see the code.</p>
-                                            <a href="https://github.com/lhirsch1/whatsOn" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-4x pageicon"></i></a><br></br>
+                                            <p class="codeicon">see the code.</p>
+                                            <a href="https://github.com/lhirsch1/whatsOn" target="_blank" rel="noopener noreferrer"><i class="fab fa-github fa-4x pageicon codeicon"></i></a><br></br>
                                             {/* <div className="codeIcons">
                                                 <p> play the game.</p>
                                                 <a href="https://safe-cove-74547.herokuapp.com/" target="_blank" rel="noopener norefferer"><i class="fas fa-gamepad fa-4x pageicon"></i></a>
