@@ -154,6 +154,10 @@
     background-image: url("https://i.ibb.co/HGLd2rt/Cheers-Main-Screen-FULLv2.png");
 }
 
+.squigglepigjtron {
+    background-image: url("https://i.ibb.co/tJX5KYj/squigglepig-HOMEPAGE.png");
+}
+
 .whatsonjtron {
     background-position: top;
     background-image: url("https://i.ibb.co/KXshXfF/whatson-home-screen.png");
@@ -224,11 +228,29 @@ height: 400px;
     font-size: 50px;
 }
 
+.jtronHeader-squigglepig {
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+    font-size: 35px;
+    padding-bottom: 20px;
+
+
+}
+
 .jtronSubText {
     position: relative;
     bottom: 64px;
     font-size: 22px;
     /* font-weight: bold; */
+}
+
+.jtronSubText-squigglepig {
+    position: relative;
+    bottom: 64px;
+    font-size: 15px;
+
+
 }
 
 .jtronSubText2 {

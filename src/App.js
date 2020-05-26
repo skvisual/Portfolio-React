@@ -14,6 +14,7 @@ import WhatsOnPage from './components/pages/WhatsOnPage';
 import WhatsOnFeatures from './components/pages/WhatsOnFeatures';
 import WhatsOnTech from './components/pages/WhatsOnTech';
 import WhatsOnCode from './components/pages/WhatsOnCode';
+import SquigglepigPage from './components/pages/SquigglepigPage';
 import './App.css';
 
 function App() {
@@ -37,6 +38,9 @@ function App() {
 
           <Route exact path="/components/pages/EmpTrackerPage" component={EmpTrackerPage} />
           <Route exact path="/components/pages/ReadmePage" component={ReadmePage} />
+
+          <Route exact path="/components/pages/SquigglepigPage" component={SquigglepigPage} />
+
         </div>
       </Router>
 
