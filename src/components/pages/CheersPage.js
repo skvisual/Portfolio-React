@@ -19,7 +19,7 @@ function CheersPage() {
                 </Row>
                 <CheersPageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtron box">
+                    <div className="jumbotron jumbotron-fluid cheersjtron jtron-center box">
                         <div className="container">
                             <Col>
                                 <div className="jtronText">

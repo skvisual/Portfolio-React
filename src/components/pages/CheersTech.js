@@ -20,7 +20,7 @@ function CheersTech() {
                 </Row>
                 <PageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtronFeatures box">
+                    <div className="jumbotron jumbotron-fluid jtron-center cheersjtrontech bx">
                         <div className="container">
                             <Col>
                                 <div className="jtronText">

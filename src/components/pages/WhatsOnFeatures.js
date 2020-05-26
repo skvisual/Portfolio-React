@@ -17,7 +17,7 @@ function WhatsOnFeatures() {
                 </Row>
                 <WhatsOnPageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtronFeatures box">
+                    <div className="jumbotron jumbotron-fluid jtron-top whatsonfeatures box">
                         <div className="container">
                             {/* <Col> */}
                                 <div className="jtronText">

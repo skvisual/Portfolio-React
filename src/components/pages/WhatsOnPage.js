@@ -18,7 +18,7 @@ function WhatsOnPage() {
                 </Row>
                 <WhatsOnPageNavLinks />
                 <Row>
-                    <div className="jumbotron jumbotron-fluid jtron box">
+                    <div className="jumbotron jumbotron-fluid whatsonjtron jtron-center box">
                         <div className="container">
                             <Col>
                                 <div className="jtronText">

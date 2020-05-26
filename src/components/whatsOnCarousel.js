@@ -34,7 +34,7 @@ function WhatsOnCarousel() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 carouselImage"
-                                src="https://i.ibb.co/JpvjxgM/whatsonhomescreen.png"
+                                src="https://i.ibb.co/KXshXfF/whatson-home-screen.png"
                                 alt="Third slide"
                             />
 
@@ -42,7 +42,7 @@ function WhatsOnCarousel() {
                         <Carousel.Item>
                             <img
                                 className="d-block w-100 carouselImage"
-                                src="https://i.ibb.co/JpvjxgM/whatsonhomescreen.png"
+                                src="https://i.ibb.co/zrcSjQs/whatson-Space-Jam.png"
                                 alt="Third slide"
                             />
                         </Carousel.Item>
